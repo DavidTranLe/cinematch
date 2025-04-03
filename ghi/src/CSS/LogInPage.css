@@ -1,0 +1,421 @@
+/* LogInPage.css - Enhanced with MDB Bootstrap compatibility */
+
+* {
+    box-sizing: border-box;
+}
+
+.loginPage {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right bottom, #000000, #040102, #070203, #0b0405, #0e0506, #170708, #1e090a, #240b0a, #300c0b, #3c090c, #49050b, #55000a);
+}
+
+.loginpageH1 {
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.loginpageP {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    margin: 20px 0 30px;
+    color: white;
+}
+
+/* Container and Form Styling */
+.container1 {
+    background: rgba(15, 15, 15, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .5), 0 10px 10px rgba(0, 0, 0, .3);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    margin: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.form-container form {
+    background: rgba(20, 20, 20, 0.95);
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Input Field Styling */
+.txtb {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    margin: 10px 0;
+}
+
+.txtb input {
+    font-size: 15px;
+    color: white;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 3px;
+    height: 35px;
+}
+
+.txtb span::before {
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgba(255, 255, 255, 0.6);
+    transform: translateY(-50%);
+    transition: .5s;
+}
+
+.txtb span::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    width: 0%;
+    height: 2px;
+    background-image: linear-gradient(120deg, #780E0E, #dc3545);
+    transition: .5s;
+}
+
+.focus+span::before {
+    top: -5px;
+}
+
+.focus+span::after {
+    width: 100%;
+}
+
+/* Button Styling */
+.loginpageButton {
+    border-radius: 20px;
+    border: 1px solid #780E0E;
+    background: #780E0E;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.loginpageButton:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(220, 53, 69, 0.4);
+}
+
+.loginpageButton:active {
+    transform: translateY(0);
+}
+
+.loginpageButton:focus {
+    outline: none;
+}
+
+.loginpageButton.ghost {
+    background: transparent;
+    border-color: #fff;
+}
+
+.loginpageButton.ghost:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Form Container Positioning */
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all .6s ease-in-out;
+}
+
+.log-in-container {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.log-in-container a {
+    color: #dc3545;
+    text-decoration: none;
+    margin: 15px 0;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.log-in-container a:hover {
+    color: #ff8c98;
+}
+
+.sign-up-container {
+    left: 0;
+    width: 50%;
+    z-index: 1;
+    opacity: 0;
+}
+
+/* Overlay Container */
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform .6s ease-in-out;
+    z-index: 100;
+}
+
+.overlay {
+    background-image: linear-gradient(120deg, #09151d, #b9263a);
+    color: #fff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateY(0);
+    transition: transform .6s ease-in-out;
+}
+
+.overlay-panel {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform .6s ease-in-out;
+}
+
+.overlay-right {
+    right: 0;
+    transform: translateY(0);
+}
+
+.overlay-left {
+    transform: translateY(-20%);
+}
+
+/* Animation Classes */
+.container1.right-panel-active .log-in-container {
+    transform: translateY(100%);
+}
+
+.container1.right-panel-active .overlay-container {
+    transform: translateX(-100%);
+}
+
+.container1.right-panel-active .sign-up-container {
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+}
+
+.container1.right-panel-active .overlay {
+    transform: translateX(50%);
+}
+
+.container1.right-panel-active .overlay-left {
+    transform: translateY(0);
+}
+
+.container1.right-panel-active .overlay-right {
+    transform: translateY(20%);
+}
+
+/* Error Message Styling */
+.signinError, .signupError {
+    color: #ff8c98;
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: rgba(220, 53, 69, 0.2);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signinError:not(:empty)::before,
+.signupError:not(:empty)::before {
+    content: "⚠️";
+    margin-right: 6px;
+}
+
+/* MDB Integration Styles */
+.form-outline .form-control {
+    background-color: transparent !important;
+    color: white !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.form-outline .form-control:focus {
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25) !important;
+}
+
+.form-outline .form-label {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.form-outline.active .form-label {
+    color: #dc3545 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container1 {
+        min-height: 650px;
+    }
+
+    .form-container {
+        width: 100% !important;
+    }
+
+    .sign-up-container {
+        opacity: 1;
+        z-index: 5;
+    }
+
+    .overlay-container {
+        display: none;
+    }
+
+    .log-in-container.mobile-hidden {
+        display: none;
+    }
+
+    .sign-up-container.mobile-visible {
+        display: block;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Modal Login CSS Additions to be added to your LogInPage.css */
+
+/* Modal specific styles */
+.login-modal .modal-dialog {
+  max-width: 800px;
+}
+
+.login-modal-content {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.modal-login-page {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: auto !important;
+  min-height: auto !important;
+  background: transparent !important;
+}
+
+.modal-login-page .container1 {
+  margin: 0 auto;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, .5), 0 10px 10px rgba(0, 0, 0, .3);
+}
+
+/* Adjust close button */
+.login-modal .btn-close-white {
+  color: white !important;
+  opacity: 0.8;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  transition: opacity 0.3s;
+}
+
+.login-modal .btn-close-white:hover {
+  opacity: 1;
+}
+
+/* Animation for modal appearance */
+.modal.fade .modal-dialog {
+  transition: transform 0.3s ease-out !important;
+}
+
+.modal.show .modal-dialog {
+  transform: none !important;
+}
+
+/* Media queries for better mobile experience */
+@media (max-width: 768px) {
+  .login-modal .modal-dialog {
+    margin: 0.5rem;
+  }
+
+  .modal-login-page .container1 {
+    min-height: 600px;
+    margin: 0;
+  }
+}
+
+/* Fix for focus issues in modals */
+.login-modal input:focus {
+  outline: none !important;
+}
+
+/* Improve scrolling in mobile modals */
+.modal-body {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Make the entire textbox area clickable */
+.txtb {
+  position: relative;
+  margin: 15px 0; /* Reduced from 30px to 15px */
+  width: 100%;
+  cursor: text; /* Change cursor to text to indicate clickable area */
+}
+
+/* Ensure the span (placeholder) doesn't interfere with clicks */
+.txtb span {
+  pointer-events: none;
+}
+
+/* Make input take full width of container */
+.txtb input {
+  width: 100%;
+}
+
+/* Adjust form spacing */
+.form-container form {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Add a small gap between elements */
+}
+
+/* Reduce space between input and forgot password link */
+.form-container a {
+  margin: 5px 0 15px;
+}

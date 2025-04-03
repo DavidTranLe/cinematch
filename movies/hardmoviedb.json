@@ -1,0 +1,139 @@
+[
+        {
+            "title": "The Matrix",
+            "poster":
+                "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+            "year":
+                1999,
+            "description":
+            "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+            "director":
+            "Lana Wachowski"
+        },
+        {
+
+        "title": "Mr. Robot",
+        "poster":
+            "https://m.media-amazon.com/images/M/MV5BM2QyNDIzOGMtNThhNS00NmUwLWI0ZjUtZjdkN2I1OTRjZWQ3XkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg",
+        "year":
+            2015,
+        "description":
+            "Mr. Robot is an American drama thriller television series created by Sam Esmail for USA Network. It stars Rami Malek as Elliot Alderson, a cybersecurity engineer and hacker with social anxiety disorder, clinical depression and dissociative identity disorder.",
+        "director":
+            "Sam Esmail"
+        },
+        {
+
+        "title": "Isle of Dogs",
+        "poster":
+            "https://amc-theatres-res.cloudinary.com/v1579120218/amc-cdn/production/2/movies/53700/53727/Poster/p_800x1200_AMC_IsleOfDogs_11052019.jpg",
+        "year":
+            2016,
+        "description":
+            "The film is set in the fictional retro-futuristic Japanese city of Megasaki, where Mayor Kenji Kobayashi has banished all dogs to Trash Island due to a canine influenza pandemic. Kobayashi's nephew Atari sets out to find his missing dog Spots with the help of a group of dogs led by stray dog Chief.",
+        "director":
+            "Wes Anderson"
+        },
+        {
+
+            "title": "Donnie Darko",
+            "poster":
+                "https://m.media-amazon.com/images/M/MV5BZjZlZDlkYTktMmU1My00ZDBiLWFlNjEtYTBhNjVhOTM4ZjJjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+            "year":
+                2001,
+            "description":
+                "Set in October 1988, the film follows Donnie Darko, an emotionally troubled teenager who inadvertently escapes a bizarre accident by sleepwalking. He has visions of Frank, a mysterious figure in a rabbit costume who informs him that the world will end in just over 28 days.",
+            "director": 
+                "Richard Kelly"
+        },
+        {
+
+            "title": "Fight Club",
+            "poster": "https://m.media-amazon.com/images/I/81JWVTlPQ2L._SY500_.jpg",
+            "year": 1999,
+            "description": "A depressed man (Edward Norton) suffering from insomnia meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself living in his squalid house after his perfect apartment is destroyed.",
+            "director": "David Fincher"
+        },
+         {
+
+            "title": "Rushmore",
+            "poster": "https://m.media-amazon.com/images/I/51uIGT-c8JL._AC_.jpg",
+            "year": 1997,
+            "description": "A teenager at Rushmore Academy falls for a much older teacher and befriends a middle-aged industrialist. Later, he finds out that his love interest and his friend are having an affair, which prompts him to begin a vendetta.",
+            "director": "Wes Anderson"
+        },
+        {
+
+            "title": "Fast & Furious",
+            "poster": "https://m.media-amazon.com/images/I/71Wo+cFznbL.jpg",
+            "year": 2004,
+            "description": "Fast & Furious (also known as The Fast and the Furious) is a media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family. The franchise also includes short films, a television series, toys, video games, live shows, and theme park attractions.",
+            "director": "John Singleton"
+        },
+        {
+
+            "title": "Justin Bieber: Never Say Never",
+            "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/5040c1698dae7bfa2220f9045ceff969_6b4806ed-0ba4-4361-a00e-e752cb3323e6_480x.progressive.jpg",
+            "year": 2010,
+            "description": "this movie sucks",
+            "director": "Jon M. Chu"
+        },
+        {
+
+            "title": "Paranormal Activity",
+            "poster": "https://m.media-amazon.com/images/I/51gJuDfTKAL._AC_UF894,1000_QL80_.jpg",
+            "year": 2007,
+            "description": "An American supernatural horror film produced, written, directed, photographed and edited by Oren Peli. It centers on a young couple (Katie Featherston and Micah Sloat) who are haunted by a supernatural presence in their home. They then set up a camera to document what is haunting them.",
+            "director": "Oren Peli"
+        },
+        {
+
+            "title": "Cars 2",
+            "poster": "https://m.media-amazon.com/images/I/71w7p5qt34L._AC_SY879_.jpg",
+            "year": 2011,
+            "description": "Race star Lightning McQueen is invited to the World Grand Prix, a race inviting all of the best race cars from around the world. But suddenly, things get turned upside down when Mater gets mistaken for an American spy. And a pair of bad guys called The Lemons are sabotaging the race with an evil camera.",
+            "director": "John Lasseter"
+        },
+        {
+            "title": "Inglourious Basterds",
+            "poster": "https://m.media-amazon.com/images/I/81+4I8lZZeL._SY606_.jpg",
+            "year": 2011,
+            "description": "The film tells an alternate history story of two plots to assassinate Nazi Germany's leadership—one planned by Shosanna Dreyfus, a young French Jewish cinema proprietor, and the other by the British; but is ultimately conducted solely by a team of Jewish American soldiers led by First Lieutenant Aldo Raine.",
+            "director": "Quentin Tarantino"
+        },
+        {
+            "title": "Minions Madness",
+            "poster": "https://m.media-amazon.com/images/I/81XZNkb4KhL._AC_UY436_FMwebp_QL65_.jpg",
+            "year": 2017,
+            "description": "is three shorts about these manic little guys. The first, is funny, cute and acts as a bridge between the two 'Despicable Me' feature films. The second will bring giggles and snorts to anyone who has had to sit through a new-hire orientation; or, had to deal with clueless 'newbie' employees.",
+            "director": "Pierre Coffin"
+        },
+        {
+            "title": "Spiderman",
+            "poster": "https://m.media-amazon.com/images/I/81VIte-lt7L._SY606_.jpg",
+            "year": 2004,
+            "description": "After being bitten by a genetically-modified spider, a shy teenager gains spider-like abilities that he uses to fight injustice as a masked superhero and face a vengeful enemy.",
+            "director": "Sam Raimi"
+        },
+        {
+            "title": "Dirty Harry",
+            "poster": "https://m.media-amazon.com/images/I/81pw6N08JsL._AC_UY436_FMwebp_QL65_.jpg",
+            "year": 1971,
+            "description": "When a madman calling himself 'the Scorpio Killer' menaces the city, tough-as-nails San Francisco Police Inspector 'Dirty' Harry Callahan is assigned to track down and ferret out the crazed psychopath.",
+            "director": "Don Siegel"
+        },
+        {
+            "title": "Midnight Cowboy",
+            "poster": "https://m.media-amazon.com/images/I/71e0rvlojYL._AC_UY436_FMwebp_QL65_.jpg",
+            "year": 1969,
+            "description": "As the film opens, Joe Buck (Jon Voight), a young Texan working as a dishwasher, dresses in new cowboy clothing, packs a suitcase, and quits his job. He heads to New York City hoping to succeed as a male prostitute for women.",
+            "director": "John Schlesinger"
+        },
+        {
+            "title": "Sonic the Hedgehog",
+            "poster": "https://m.media-amazon.com/images/I/81PbVKQYRhL._AC_UY436_FMwebp_QL65_.jpg",
+            "year": 2020,
+            "description": "The film follows Sonic (voiced by Schwartz), a blue anthropomorphic hedgehog who can run supersonic speeds. He teams up with a town sheriff, Tom Wachowski (Marsden), to stop the mad scientist Dr. Robotnik (Carrey).",
+            "director": "Jeff Fowler"
+        }
+]

@@ -1,0 +1,30 @@
+.button {
+  border-color: #000;
+  background-color: #000;
+  color: #fff;
+  box-shadow: none;
+  margin-right: 8px;
+}
+
+.button {
+  border-color: #000;
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none;
+  margin-left: 8px;
+}
+
+
+.button:hover {
+    background-color: transparent;
+    border-color: #fff;
+    outline: 0.7px solid #fff;
+    box-shadow: none;
+}
+
+.button:focus, .button:active {
+  background-color: transparent;
+  border-color: #fff;
+  color: #ffffff;
+  box-shadow: none;
+}
